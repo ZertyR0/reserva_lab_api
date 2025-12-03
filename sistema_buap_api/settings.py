@@ -81,6 +81,8 @@ CORS_ALLOWED_ORIGINS = config(
 
 ROOT_URLCONF = 'sistema_buap_api.urls'
 
+WSGI_APPLICATION = 'sistema_buap_api.wsgi.application'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
