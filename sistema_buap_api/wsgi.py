@@ -8,6 +8,10 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 """
 
 import os
+import pymysql
+
+# Reemplazar mysqlclient con pymysql
+pymysql.install_as_MySQLdb()
 
 from django.core.wsgi import get_wsgi_application
 

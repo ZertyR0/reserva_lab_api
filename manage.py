@@ -2,6 +2,10 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import pymysql
+
+# Reemplazar mysqlclient con pymysql
+pymysql.install_as_MySQLdb()
 
 
 def main():
