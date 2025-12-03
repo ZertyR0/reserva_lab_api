@@ -10,3 +10,6 @@ djangorestframework-simplejwt==5.3.1
 cryptography
 python-dateutil
 google-cloud-storage
+gunicorn==21.2.0
+python-decouple==3.8
+whitenoise==6.6.0
